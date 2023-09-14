@@ -1,0 +1,7 @@
+CREATE TABLE CONTACT(
+    ID              INT             PRIMARY KEY AUTO_INCREMENT,
+    NAME       VARCHAR(30)     NOT NULL,  
+    EMAIL       VARCHAR(100)     NOT NULL,
+    SUBJECT   VARCHAR(100)     NOT NULL,
+    MESSAGE         VARCHAR(300)  NOT NULL
+);
